@@ -1,0 +1,23 @@
+aws:
+  endpoint: http://localhost:4566/
+  accessKeyId: ${AWS_ACCESS_KEY_ID:test}
+  secretAccessKey: ${AWS_SECRET_ACCESS_KEY:test}
+  region: ${AWS_REGION:sa-east-1}
+
+san-giorgio-api:
+  aws:
+    accountId: ${AWS_ACCOUNT_ID:000000000000}
+
+spring:
+  aplication:
+    name: san-giorgio-api
+  datasource:
+    driver-class-name: org.hsqldb.jdbc.JDBCDriver
+    url: jdbc:hsqldb:mem:testdb;DB_CLOSE_DELAY=-1
+    username: sa
+    password: test123
+  jpa:
+    defer-datasource-initialization: true
+    hibernate:
+      ddl-auto: create-drop
+
