@@ -10,6 +10,5 @@
 ░ ░▒  ░ ░  ▒   ▒▒ ░░ ░░   ░ ▒░  ░   ░  ▒ ░  ░ ▒ ▒░   ░▒ ░ ▒░  ░   ░  ▒ ░  ░ ▒ ▒░ 
 ░  ░  ░    ░   ▒      ░   ░ ░ ░ ░   ░  ▒ ░░ ░ ░ ▒    ░░   ░ ░ ░   ░  ▒ ░░ ░ ░ ▒  
       ░        ░  ░         ░       ░  ░      ░ ░     ░           ░  ░      ░ ░  
-${application.title} ${application.version}
 Powered by Java Spring Boot ${spring-boot.version}
 
