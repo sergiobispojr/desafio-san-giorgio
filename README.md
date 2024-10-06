@@ -18,6 +18,8 @@ Para executar os testes, no terminal acesse a pasta `san-giorgio-api` e utilize 
 ./gradlew :san-giorgio-api:test :san-giorgio-api:jacocoTestReport
 ```
 
+Depois é só acessar a pasta o arquivo `index.html` que está na pasta `san-giorgio-api/build/reports/jacoco/test/html` para verificar o coverage.
+
 ### Configuração para SQS
 
 Criar recurso SQS na AWS ou LocalStack para poder ter as informações necessárias para
